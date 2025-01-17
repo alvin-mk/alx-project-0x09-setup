@@ -1,1 +1,55 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Static files
+*.log
+*.env
+.env.*
+*.local
+
+# Test coverage
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.swp
+*.swo
+*.tmp
+
+# Generated files
+*.lock
+*.cache
+
+# Optional for specific needs
+# Ignore .env files only if you manage environment variables outside the repository
+.env*
+#API file
 .env.local
+
